@@ -25,7 +25,7 @@ var evening_hour	= 23;
 
 var body = document.getElementsByTagName( "body" )[0];
 
-if ((hours <= morning_hour) || (hours => evening_hour)) {
+if ((hours >= morning_hour) || (hours <= evening_hour)) {
     console.log("HEYEYEYEYAA");
 	body.innerHTML = "";
 	document.getElementsByTagName( "head" )[0].innerHTML = "";
